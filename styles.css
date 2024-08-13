@@ -1,0 +1,63 @@
+body {
+    color: rgb(233, 208, 47);
+    background: rgb(34, 32, 32);
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: rgb(34, 32, 32);
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(34, 32, 32);
+}
+
+header {
+    border-bottom: solid 2px rgb(233, 208, 47);
+    padding: 20px;
+    font-size: 32px;
+    font-family: Georgia;
+}
+
+.chamada {
+    background: rgb(233, 208, 47);
+    color: rgb(34, 32, 32);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 1px solid rgb(233, 208, 47);
+}
